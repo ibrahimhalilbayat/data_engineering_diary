@@ -15,4 +15,8 @@ Dairy for Data Engineering come on and learn with me.
     * udp_server.py will listen to port 8002 in localhost for messages
     * udp_server.py will send messages from the user to port 8002 in localhost
 
+## Kafka folder contains two Python scripts: kafka_producer.py and kafka_consumer.py
+    * kafka_consumer.py will listen to port 9092 and print the messages under the topic 'destroying-ring'
+    * kafka_producer.py will send the messages to the clients under the topic 'destroying-ring'
+
 
